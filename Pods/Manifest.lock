@@ -1,0 +1,16 @@
+PODS:
+  - ModernRIBs (1.0.1)
+
+DEPENDENCIES:
+  - ModernRIBs
+
+SPEC REPOS:
+  trunk:
+    - ModernRIBs
+
+SPEC CHECKSUMS:
+  ModernRIBs: fdc109bfdef7811ae3e8fd9d51ca7d36ab6c09df
+
+PODFILE CHECKSUM: f177022b4b1ced48edec919ac6bccc6e102a99cf
+
+COCOAPODS: 1.10.1
