@@ -7,5 +7,5 @@ target 'MiniSuperApp' do
 
   # Pods for MiniSuperApp
   pod 'ModernRIBs'
-
+  pod 'CombineExt'
 end
