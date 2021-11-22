@@ -27,7 +27,9 @@ protocol SuperPayDashboardInteractorDependency {
   var balanceFormatter: NumberFormatter { get }
 }
 
-final class SuperPayDashboardInteractor: PresentableInteractor<SuperPayDashboardPresentable>, SuperPayDashboardInteractable, SuperPayDashboardPresentableListener {
+final class SuperPayDashboardInteractor: PresentableInteractor<SuperPayDashboardPresentable>,
+                                         SuperPayDashboardInteractable,
+                                         SuperPayDashboardPresentableListener {
 
   weak var router: SuperPayDashboardRouting?
   weak var listener: SuperPayDashboardListener?
